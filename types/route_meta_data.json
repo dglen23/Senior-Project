@@ -1,0 +1,6 @@
+{
+	"/": [],
+	"/api/chat": [
+		"src/routes/api/chat/+server.ts"
+	]
+}
