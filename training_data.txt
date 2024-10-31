@@ -238,3 +238,6 @@ The Computer Science Department is committed to building strong ties and engagin
 Alumni
 We invite you to keep us posted of your accomplishments as an alumnus; explore collaborations either in research or education; and bring any new initiatives you may have in mind to our attention.
 contact the department, and share your stories. cs-chair@morgan.edu
+2025 Software Engineer Internships and Job applications 
+Link to New Grad Jobs https://github.com/jobright-ai/2025-Software-Engineer-New-Grad
+Link to Summer 2025 Internships https://github.com/SimplifyJobs/Summer2025-Internships
