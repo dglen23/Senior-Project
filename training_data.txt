@@ -1,0 +1,240 @@
+About the Computer Science Program
+The Computer Science Program provides students with fundamental computer science knowledge and training, and prepares them to apply their knowledge and training to produce solutions to specific problems. Students learn to define a problem clearly, determine its feasibility and choose an appropriate solution strategy. The solution strategy will study, specify, design, implement, test, modify, and document the solution. As part of the solution strategy, students will learn to evaluate alternative designs, perform risk analysis on alternative designs, and finally, communicate solutions to colleagues and other professionals. A key element to all of this is the ability of the student to work and collaborate within a team environment throughout the entire problem-solving process.
+Primary Objective of the Computer Science Curriculum
+Provide practical knowledge that will be of immediate use in the profession.
+Provide a solid foundation in theoretical computer science, so that graduates will have the fundamentals necessary to acquire knowledge in a rapidly evolving discipline.
+Bachelor of Computer Science degree students learning outcomes
+Analyze a complex computing problem and to apply principles of computing and other relevant disciplines to identify solutions.
+Design, implement, and evaluate a computing-based solution to meet a given set of computing requirements in the context of the program’s discipline.
+Communicate effectively in a variety of professional contexts.
+Recognize professional responsibilities and make informed judgments in computing practice based on legal and ethical principles.
+Function effectively as a member or leader of a team engaged in activities appropriate to the program discipline.
+Apply computer science theory and software development fundamentals to produce computing-based solutions.
+Areas of Learning Focus
+Software Engineering, Cybersecurity, Artificial Intelligence, Quantum Cryptography, Data Science, Game/Robotics, Quantum Computing, Cloud Computing. 
+The Bachelor of Science (B.S.) in Computer Science
+The undergraduate program in Computer Science prepares students for entry into the computing profession, for graduate study in computer, computational, and data sciences, and for the many challenges that will confront them in their professional and personal life. The Computer Science program also prepares students to apply their knowledge and training to produce solutions to specific and esoteric problems. Students learn to define the problem clearly; to determine its tractability; to determine when consultation with outside experts is appropriate; to evaluate and choose an appropriate solution strategy; and then to study, specify, design, implement, test, modify, and document that solution; to evaluate alternatives and perform risk analysis on that design; to integrate alternative techniques and technologies into that solution; and finally to communicate that solution to colleagues, to professionals in other fields, and to the general public. Key to all of this is the ability of the problem-solver to work within a team environment throughout the entire problem-solving process.
+School-wide requirements
+General Education Requirements.
+Earned six (6) credits in the Complementary Studies Program required for all majors in the School of Computer, Mathematical and Natural Sciences.
+Passed the Senior Departmental Comprehensive Examination.
+Taken all of their junior and senior-level requirements in the major at Morgan State University (unless granted prior written permission by the Dean to take courses elsewhere).
+Earned a cumulative average of 2.0 or better and a major average of 2.0 or better, with no outstanding grades below “C” in the major (which includes all courses required for the major and required supporting courses).
+Requirements for the B.S. Degree in Computer Science
+A minimum of 120 credit hours are required to graduate with a B.S. in Computer Science.  These credit hours are distributed as follows:
+General Education and University Requirements    44 credits
+Supporting Courses   11 credits
+Required Courses for the Computer Science Major    65 credits
+Total Credits    120 credits
+General Education and University Requirements
+ENGL 101 - Freshman Composition I 3 credits EC OR ENGL 111 - Freshman Composition I—Honors 3 credits EC AND ENGL 102 - Freshman Composition II 3 credits (EC) OR ENGL 112 - Freshman Composition II—Honors 3 credits (EC) 
+MATH 241 - Calculus I 4 credits MQ*
+HH General Education Req. 3 credits HH
+COSC 111 - Introduction to Computer Science I 4 credits IM*
+Two AH General Education Req. 3 credits AH
+BP General Education Req. 4 credits with lab BP
+BP General Education Req. 3 credits no lab req. BP
+Two SB General Education Req. 3 credits SB
+Two CI General Education Req. 3 credits CI
+ORNS 106 - Freshman Orientation for Majors in the School of Computer, Mathematical and Natural Sciences 1 credits
+Phys. Activity or FIN 101 or MIND 101 or DSVG 101 or FACS 102 1 credit
+Supporting Courses
+MATH 241 - Calculus I 4 credits *
+MATH 242 - Calculus II 4 credits
+MATH 312 - Linear Algebra I 3 credits
+MATH 331 - Applied Probability and Statistics 3 credits
+COSC 201 - Computer Ethics 1 credits
+Required Courses for Computer Science Major
+COSC 111 - Introduction to Computer Science I 4 credits *
+COSC 112 - Introduction to Computer Science II 4 credits
+COSC 220 - Data Structures and Algorithms 4 credits
+COSC 241 - Computer Systems and Digital Logic 3 credits
+COSC 281 - Discrete Structure 3 credits
+COSC 349 - Computer Networks 3 credits
+COSC 351 - Cybersecurity 3 credits
+COSC 352 - Organization of Programming Languages 3 credits
+COSC 354 - Operating Systems 3 credits
+COSC 458 - Software Engineering 3 credits
+COSC 459 - Database Design 3 credits
+COSC 490 - Senior Project 3 credits
+Three COSC Group A Electives 3 credits
+Two COSC Group B Electives 3 credits
+Four COSC Group C Electives 3 credits
+One COSC Group D Elective 3 credits
+Computer Science Electives
+Group A Electives
+COSC 238 - Object Oriented Programming 4 credits
+COSC 239 - Java Programming 3 credits
+COSC 243 - Computer Architecture 3 credits
+COSC 251 - Introduction to Data Science 3 credits
+CLCO 261 - Introduction to Cloud Computing 3 credits
+Group B Electives
+COSC 320 - Algorithm Design and Analysis 3 credits
+COSC 323 - Introduction to Cryptography 3 credits
+COSC 332 - Introduction to Game Design and Development 3 credits
+COSC 338 - Mobile App Design & Development 3 credits
+COSC 383 - Numerical Methods and Programming 3 credits
+COSC 385 - Theory of Languages and Automata 3 credits
+COSC 386 - Introduction to Quantum Computing 3 credits
+MATH 313 - Linear Algebra II 3 credits
+EEGR 317 - Electronic Circuits 4 credits
+Group C Electives
+COSC 470 - Artificial Intelligence 3 credits OR COSC 472 - Introduction to Machine Learning 3 credits
+COSC 460 - Computer Graphics 3 credits
+COSC 480 - Introduction to Image Processing and Analysis 3 credits
+COSC 486 - Applied Quantum Computing 3 credits
+COSC 491 - Conference Course 3 credits
+COSC 498 - Senior Internship 3 credits
+COSC 499 - Senior Research or Teaching/Tutorial Assistantship 3 credits
+CLCO 471 - Data Analytics in Cloud 3 credits
+Group D Electives
+INSS 391 - IT Infrastructure and Security 3 credits
+INSS 494 - Information Security and Risk Management 3 credits
+EEGR 481 - Introduction to Network Security 3 credits
+EEGR 483 - Introduction to Security Management 3 credits
+300 - 400 level COSC Course (not previously taken) 3 credits​
+Suggested Curriculum Sequence
+Link to curriculum sequence https://catalog.morgan.edu/preview_program.php?catoid=11&poid=2205
+First Year (Semester One): 15 Credits
+COSC 111 - Introduction to Computer Science I 4 credits IM*
+ENGL 101 - Freshman Composition I 3 credits EC
+MATH 241 - Calculus I 4 credits MQ*
+CT General Education Req. 3 credits CT
+ORNS 106 - Freshman Orientation for Majors in the School of Computer, Mathematical and Natural Sciences 1 credits
+First Year (Semester Two): 15 Credits
+ENGL 102 - Freshman Composition II 3 credits EC
+HH General Education Req. 3 credits HH
+Phys. ED. Activity or FIN 101 or MIND 101 or DSVG 101 or FACS 102 1 credit
+COSC 112 - Introduction to Computer Science II 4 credits
+MATH 242 - Calculus II 4 credits
+Second Year (Semester One): 16 Credits
+COSC 220 - Data Structures and Algorithms 4 credits
+COSC 241 - Computer Systems and Digital Logic 3 credits
+AH General Education Req. 3 credits AH
+COSC Group A Elective 3 credits
+Second Year (Semester Two): 16 Credits
+COSC 281 - Discrete Structure 3 credits
+COSC Group A Elective 3 credits
+COSC Group A Elective 3 credits
+MATH 312 - Linear Algebra I 3 credits
+AH General Education Req. 3 credits AH
+Third Year (Semester One): 15 Credits
+COSC 349 - Computer Networks 3 credits
+COSC 351 - Cybersecurity 3 credits
+COSC 352 - Organization of Programming Languages 3 credits
+COSC Group B Elective 3 credits
+BP General Education Req. 4 credits (BP)
+Third Year Semester Two): 16 Credits
+COSC 354 - Operating Systems 3 credits
+MATH 331 - Applied Probability and Statistics 3 credits
+COSC Group B Elective2
+CI General Education Req. 3 credits CI
+BP General Education Req. 3 credits no lab req. BP
+Fourth Year (Semester One): 15 Credits
+COSC 458 - Software Engineering 3 credits
+COSC 459 - Database Design 3 credits
+COSC 490 - Senior Project 3 credits
+COSC Group C Elective 3 credits3
+SB General Education Req. 3 credits SB
+Fourth Year (Semester Two): 15 Credits
+COSC Group C Elective 3 credits
+COSC Group C Elective 3 credits
+COSC Group C Elective 3 credits
+COSC Group D Elective 3 credits
+SB General Education Req. 3 credits SB
+Class Schedules
+The department offers BS in Computer Science program with focus on software engineering, cybersecurity, AI/ML, data science, and game design.
+The department also offers BS in Cloud Computing program, MS in Advanced Computing program, and MS in Bioinformatics program.
+Forms
+The department no longer uses paper forms. The following forms can be filed directly online.
+Computer Science Department Forms
+COSC Course Registration Override Request Form [contact your adviser to submit request. Contact Ms. Wendy for updates].
+COSC Internal Course Substitution Requests
+Contact your adviser to submit the request for you.  Contact Ms. Wendy for updates.
+Core courses cannot be substituted. Requests for approvals are not always granted.
+COSC Adviser/faculty Recommendation Request Form [conact Ms. Wendy]
+COSC Action Conference Request Form [contact Ms. Wendy]
+Form on Registrar Website [https://www.morgan.edu/registrar/forms]
+Excess Credits (>18) Request Form
+Change Catelog Request Form
+Enrollment/Degree Verification Request Form
+Time Confilct Request Form
+Student Highlights
+Visit Student Highlights Page https://www.morgan.edu/computer-science/current-students/student-highlights
+Check the most up-to-date activities on CS Twitter: @Morgan_CompSci
+SACS
+SACS (The Society of the Advancement of Computer Science) is a computer science club that was founded in 1964.
+Visit SACS Page https://www.morgan.edu/computer-science/current-students/sacs
+Advisers
+Your advisers should appear on your DegreeWork.
+You can also find your advisers here https://www.morgan.edu/computer-science/current-students/academic-advisers
+Internship Opportunities
+The department has collaborations with Google, Facebook, JP Morgan Chase, NASA, NSA, Lockheed Martin, and many other public and private organizations to provide internships and other opportunities for students.
+Visit Internship Opportunities Page. https://www.morgan.edu/computer-science/current-students/internship-opportunities
+For most up-to-date information, please check out CS Twitter: @Morgan_CompSci
+Catalogs
+You can download the recent catalogs below. Please note that the catalog may be updated when necessary. Contact your academic adviser if you have questions.
+2020 - 2024 Catalogs
+BS in Computer Science [2020 - 2024] https://catalog.morgan.edu/preview_program.php?catoid=11&poid=2096&returnto=721&_gl=1*1cvgq5s*_ga*MjA2MjYzMjM1MS4xNjkyMzc1NTQ4*_ga_T3TCY7Q7D7*MTcyOTcxMjAwNC42MS4xLjE3Mjk3MTIyMzMuNDMuMC4w
+MS in Computer Science [2020 - 2024] https://catalog.morgan.edu/preview_program.php?catoid=13&poid=2623&returnto=839&_gl=1*ackehg*_ga*MjA2MjYzMjM1MS4xNjkyMzc1NTQ4*_ga_T3TCY7Q7D7*MTcyOTcxMjAwNC42MS4xLjE3Mjk3MTIyMzMuNDMuMC4w
+Admission & Application
+How to Apply for Bachelor of Science (B.S.) in Computer Science
+You may get all the necessary information about applying to Morgan from the Office of Undergraduate Admission & Recruitment here http://www.morgan.edu/undergradadmissions
+Or start your application process here http://www.morgan.edu/applynow.html
+For further assistant, please do not hesitate to contact the Morgan Computer Science Department
+Faculty and Staff
+Department Leadership
+Shuangbao "Paul" Wang
+Professor and Chair
+Office: McMechen Hall 507
+Phone: (443) 885-4503
+shuangbao.wang@morgan.edu
+Md Rahman
+Professor, Associate Chair
+Office: McMechen 629
+Phone: (443) 885-1056
+Md.Rahman@morgan.edu
+Wendy Smith
+Administrative Assistant
+Office: McMechen Hall 507A
+Phone: (443) 885-3962
+Wendy.Smith@morgan.edu
+Ms. Grace Steele
+Administrative Assistant
+Office: McMechen 507
+Phone: (443) 885-1053
+Dr. Guobin Xu
+Director of Undergraduate Studies (BS/CS)
+Email: guobin.xu@morgan.edu
+Phone: (443) 885-3371
+Research
+Research Areas
+Artificial Intelligence / Machine Learing / Deep Learning
+Quantum Computing and Quantum Cryptography https://p-neumann.github.io/quantum/
+Cybersecurity
+Data Science / Big Data Analytics
+Human Computer Interactions
+Cloud Computing https://www.morgan.edu/cs/cloudcomputing
+Robotics / Gaming
+Follow CS Twitter for most up-to-date info and activities.
+News
+Follow Morgan Computer Science Twitter for most up-to-date news and events.
+Microsoft Award
+Morgan Computer science received $200,000 gift from Microsoft on cloud computing and other emerging computing technologies. The gift will help develop cutting edge curriculua and support 6 undergraduate, 3 graduate students, in additional to the fund set aside for research. This is a collaborative effort of @Morgan_CompSci with school of engineering. (2020)
+NSF Award in Quantum Computing and Quantum Cryptography
+@Morgan_Compsci received National Science Foundation (NSF) award on cutting edge research in quantum computing and quantum cryptography. More info, visit Morgan Quantum Computing Group website.
+Google Gift on Machine Learning and AI
+The CS department recently received a grant award of $18,750 from Google to conduct machine learning and AI.
+NSA Grant on Cybersecurity
+Morgan Computer science received grants from National Security Agency (NSA) in cybersecurity research. The money supports two Advanced Computing graduate students with full scholarship (tution and stipends). (2020)
+Morthrop Grumman Scholarship Award
+Morgan Compter Science has received a gift of $10,000 from @northropgrumman to support students scholarships and activities. (2020)
+AT&T HBCU Challenge Award
+Computer Science Students to win the first ever AT&T HBCU Challenge with a $20,000 award. (2020)
+IBM Masters Fellowship Award
+Taofeek Obafemi-Babatunde, a CS students in the newly established MS in Advanced Computing Program to receive the prestigious IBM Masters Fellowship award. He will work on quantum cryptography and cybersecurity research. The monetary award is $10,000. (2020)
+Community
+The Computer Science Department is committed to building strong ties and engaging with alumni, local industry and government agencies, community colleges, and local K-12 schools. Our goal is to suppor students especially underrepresented students to be well prepared to meet the workforce needs of the state and the nation.
+Alumni
+We invite you to keep us posted of your accomplishments as an alumnus; explore collaborations either in research or education; and bring any new initiatives you may have in mind to our attention.
+contact the department, and share your stories. cs-chair@morgan.edu
