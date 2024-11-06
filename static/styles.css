@@ -1,0 +1,117 @@
+/* General body styles */
+body {
+    background-color: #001b3a; /* Darker Navy Blue */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Header styles */
+h1 {
+    color: #FF8200; /* Bright Orange for header */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Centering container styles */
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+/* Chat container styles */
+.chat-container {
+    background-color: #263238; /* Dark gray-blue */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Chat window styles */
+.chat-window {
+    border: 1px solid #FF8200; /* Bright Orange */
+    border-radius: 10px;
+    height: 350px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 100%;
+    background-color: #37474f; /* Darker background for chat window */
+    color: #ffffff;
+}
+
+/* User input form and buttons */
+#chat-form {
+    display: flex;
+    width: 100%;
+}
+
+#user-input {
+    flex-grow: 1;
+    border: 1px solid #FF8200; /* Bright Orange */
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #263238; /* Match input background with chat container */
+    color: #ffffff;
+}
+
+button {
+    background-color: #FF8200; /* Bright Orange */
+    color: #002D62; /* Navy Blue */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ffa733; /* Lighter Orange on hover */
+}
+
+/* Message styling in chat window */
+.chat-window p {
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+.chat-window p:nth-child(odd) {
+    text-align: left;
+    color: #FF8200; /* Bright Orange for user messages */
+}
+
+.chat-window p:nth-child(even) {
+    text-align: right;
+    color: #80D8FF; /* Light Blue for bot messages */
+}
+
+/* Links at the top */
+a {
+    color: #80D8FF; /* Light Blue */
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with Morgan AI Mentor</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="centered">
+        <h1>Morgan AI Mentor</h1>
+        <div class="chat-container">
+            <div class="chat-window" id="chat-window"></div>
+            <form id="chat-form">
+                <input type="text" id="user-input" placeholder="Type your message..." required>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const chatForm = document.getElementById("chat-form");
+        const chatWindow = document.getElementById("chat-window");
+
+        chatForm.addEventListener("submit", async (e) => {
+            e.preventDefault();
+            const userInput = document.getElementById("user-input").value;
+
+            // Append user input to chat window
+            const userMessage = document.createElement("p");
+            userMessage.textContent = "You: " + userInput;
+            chatWindow.appendChild(userMessage);
+
+            // Send input to server and get response
+            const response = await fetch("/message", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ message: userInput }),
+            });
+            const data = await response.json();
+
+            // Append AI response to chat window
+            const botMessage = document.createElement("p");
+            botMessage.textContent = "AI: " + (data.response || data.error);
+            chatWindow.appendChild(botMessage);
+
+            // Clear input field
+            document.getElementById("user-input").value = "";
+        });
+    </script>
+</body>
+</html>
