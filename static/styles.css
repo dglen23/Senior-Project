@@ -18,6 +18,28 @@ h1 {
     text-align: center;
 }
 
+/* Link Buttons */
+.link-buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.link-buttons .btn {
+    background-color: #FF8200; /* Bright Orange */
+    color: #001b3a; /* Dark Navy Blue */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.link-buttons .btn:hover {
+    background-color: #ffa733; /* Lighter Orange on hover */
+}
+
 /* Centering container styles */
 .centered {
     display: flex;
@@ -105,9 +127,9 @@ button:hover {
     color: #80D8FF; /* Light Blue for bot messages */
 }
 
-/* Links at the top */
+/* Additional styles for link text within the page */
 a {
-    color: #80D8FF; /* Light Blue */
+    color: #80D8FF; /* Light Blue for links */
     text-decoration: none;
     margin: 0 5px;
 }
