@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from flask import Flask, request, jsonify, render_template
 from openai import OpenAI
 
@@ -63,4 +62,3 @@ def message():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
