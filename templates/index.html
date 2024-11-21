@@ -1,135 +1,152 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat with Morgan AI Mentor</title>
-    <link rel="stylesheet" href="/static/styles.css">
-    <style>
-        /* Dropdown Menu Styling */
-        .menu-container {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            z-index: 1000;
-        }
+/* General body styles */
+body {
+    background-color: #001b3a; /* Darker Navy Blue */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+}
 
-        .menu-button {
-            background-color: #FF9100; /* Bright Orange */
-            color: #001b3a; /* Dark Navy Blue */
-            padding: 10px 20px;
-            font-size: 16px;
-            font-weight: bold;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
+/* Header styles */
+h1 {
+    color: #FF8200; /* Bright Orange for header */
+    margin: 20px 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
 
-        .menu-button:hover {
-            background-color: #ffa733;
-        }
+/* Link Buttons */
+.link-buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
 
-        .dropdown-menu {
-            display: none;
-            flex-direction: column;
-            position: absolute;
-            top: 50px;
-            left: 0;
-            background-color: #263238;
-            border-radius: 5px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-            padding: 10px 0;
-            width: 200px;
-        }
+.link-buttons .btn {
+    background-color: #FF8200; /* Bright Orange */
+    color: #001b3a; /* Dark Navy Blue */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
 
-        .dropdown-menu a {
-            display: block;
-            padding: 10px;
-            color: #80D8FF;
-            text-decoration: none;
-            font-weight: bold;
-            transition: background-color 0.3s;
-        }
+.link-buttons .btn:hover {
+    background-color: #ffa733; /* Lighter Orange on hover */
+}
 
-        .dropdown-menu a:hover {
-            background-color: #37474f;
-        }
+/* Centering container styles */
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+}
 
-        /* Adjusted main content positioning */
-        .centered {
-            text-align: center;
-            position: relative;
-            top: 20px; /* Aligns header with dropdown */
-        }
-    </style>
-</head>
-<body>
-    <!-- Dropdown Menu -->
-    <div class="menu-container">
-        <button class="menu-button" onclick="toggleMenu()">☰ Menu</button>
-        <div class="dropdown-menu" id="dropdownMenu">
-            <a href="https://www.morgan.edu/scmns/computerscience" target="_blank">Department of COSC</a>
-            <a href="https://www.morgan.edu/computer-science/faculty-and-staff" target="_blank">Faculty and Staff</a>
-            <a href="https://www.morgan.edu/office-of-the-registrar/records-and-registration-services/registration" target="_blank">Registration</a>
-            <a href="https://www.morgan.edu/academic-calendar" target="_blank">Academic Calendar</a>
-        </div>
-    </div>
+/* Chat container styles */
+.chat-container {
+    background-color: #263238; /* Dark gray-blue */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
 
-    <div class="centered">
-        <h1 style="color: #FF9100;">Morgan AI</h1>
+/* Chat window styles */
+.chat-window {
+    border: 1px solid #FF8200; /* Bright Orange */
+    border-radius: 10px;
+    height: 350px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 100%;
+    background-color: #37474f; /* Darker background for chat window */
+    color: #ffffff;
+}
 
-        <!-- Chat Container -->
-        <div class="chat-container">
-            <div class="chat-window" id="chat-window"></div>
-            <form id="chat-form">
-                <input type="text" id="user-input" placeholder="Type your message..." required>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-    </div>
+/* User input form and buttons */
+#chat-form {
+    display: flex;
+    width: 100%;
+}
 
-    <script>
-        // Toggle dropdown menu
-        function toggleMenu() {
-            const dropdownMenu = document.getElementById("dropdownMenu");
-            dropdownMenu.style.display = dropdownMenu.style.display === "flex" ? "none" : "flex";
-        }
+#user-input {
+    flex-grow: 1;
+    border: 1px solid #FF8200; /* Bright Orange */
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #263238; /* Match input background with chat container */
+    color: #ffffff;
+    transition: border-color 0.3s ease-in-out;
+}
 
-        // Chatbot functionality
-        const chatForm = document.getElementById("chat-form");
-        const chatWindow = document.getElementById("chat-window");
+#user-input:focus {
+    border-color: #ffa733; /* Lighter orange on focus */
+    outline: none;
+}
 
-        chatForm.addEventListener("submit", async (e) => {
-            e.preventDefault();
-            const userInput = document.getElementById("user-input").value;
+button {
+    background-color: #FF8200; /* Bright Orange */
+    color: #002D62; /* Navy Blue */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+    font-size: 16px;
+}
 
-            // Clear input field immediately
-            document.getElementById("user-input").value = "";
+button:hover {
+    background-color: #ffa733; /* Lighter Orange on hover */
+    transform: scale(1.05);
+}
 
-            // Append user input to chat window
-            const userMessage = document.createElement("p");
-            userMessage.textContent = "You: " + userInput;
-            chatWindow.appendChild(userMessage);
+/* Message styling in chat window */
+.chat-window p {
+    margin: 5px 0;
+    color: #ffffff;
+    line-height: 1.5;
+}
 
-            // Send input to server and get response
-            const response = await fetch("/message", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify({ message: userInput }),
-            });
-            const data = await response.json();
+.chat-window p:nth-child(odd) {
+    text-align: left;
+    color: #FF8200; /* Bright Orange for user messages */
+}
 
-            // Append AI response to chat window
-            const botMessage = document.createElement("p");
-            botMessage.textContent = "AI: " + (data.response || data.error);
-            chatWindow.appendChild(botMessage);
+.chat-window p:nth-child(even) {
+    text-align: right;
+    color: #80D8FF; /* Light Blue for bot messages */
+}
 
-            // Scroll to the bottom of the chat window
-            chatWindow.scrollTop = chatWindow.scrollHeight;
-        });
-    </script>
-</body>
-</html>
+/* Additional styles for link text within the page */
+a {
+    color: #80D8FF; /* Light Blue for links */
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ffa733; /* Lighter Orange on hover */
+}
