@@ -5,16 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat with Morgan AI Mentor</title>
     <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        /* Dropdown Menu Styling */
+        .menu-container {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+        }
+
+        .menu-button {
+            background-color: #FF9100; /* Bright Orange */
+            color: #001b3a; /* Dark Navy Blue */
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .menu-button:hover {
+            background-color: #ffa733;
+        }
+
+        .dropdown-menu {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 50px;
+            left: 0;
+            background-color: #263238;
+            border-radius: 5px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            padding: 10px 0;
+            width: 200px;
+        }
+
+        .dropdown-menu a {
+            display: block;
+            padding: 10px;
+            color: #80D8FF;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .dropdown-menu a:hover {
+            background-color: #37474f;
+        }
+
+        /* Adjusted main content positioning */
+        .centered {
+            text-align: center;
+            position: relative;
+            top: 20px; /* Aligns header with dropdown */
+        }
+    </style>
 </head>
 <body>
-    <div class="centered">
-        <h1 style="color: #FF9100;">Morgan AI</h1> <!-- Header styled in Morgan's orange color -->
-
-        <!-- Link Buttons -->
-        <div class="link-buttons">
-            <a href="https://www.morgan.edu/scmns/computerscience" class="btn" target="_blank">Department of COSC</a>
-            <a href="https://www.morgan.edu/computer-science/faculty-and-staff" class="btn" target="_blank">Faculty and Staff</a>
+    <!-- Dropdown Menu -->
+    <div class="menu-container">
+        <button class="menu-button" onclick="toggleMenu()">☰ Menu</button>
+        <div class="dropdown-menu" id="dropdownMenu">
+            <a href="https://www.morgan.edu/scmns/computerscience" target="_blank">Department of COSC</a>
+            <a href="https://www.morgan.edu/computer-science/faculty-and-staff" target="_blank">Faculty and Staff</a>
+            <a href="https://www.morgan.edu/office-of-the-registrar/records-and-registration-services/registration" target="_blank">Registration</a>
+            <a href="https://www.morgan.edu/academic-calendar" target="_blank">Academic Calendar</a>
         </div>
+    </div>
+
+    <div class="centered">
+        <h1 style="color: #FF9100;">Morgan AI</h1>
 
         <!-- Chat Container -->
         <div class="chat-container">
@@ -27,12 +90,22 @@
     </div>
 
     <script>
+        // Toggle dropdown menu
+        function toggleMenu() {
+            const dropdownMenu = document.getElementById("dropdownMenu");
+            dropdownMenu.style.display = dropdownMenu.style.display === "flex" ? "none" : "flex";
+        }
+
+        // Chatbot functionality
         const chatForm = document.getElementById("chat-form");
         const chatWindow = document.getElementById("chat-window");
 
         chatForm.addEventListener("submit", async (e) => {
             e.preventDefault();
             const userInput = document.getElementById("user-input").value;
+
+            // Clear input field immediately
+            document.getElementById("user-input").value = "";
 
             // Append user input to chat window
             const userMessage = document.createElement("p");
@@ -54,8 +127,8 @@
             botMessage.textContent = "AI: " + (data.response || data.error);
             chatWindow.appendChild(botMessage);
 
-            // Clear input field
-            document.getElementById("user-input").value = "";
+            // Scroll to the bottom of the chat window
+            chatWindow.scrollTop = chatWindow.scrollHeight;
         });
     </script>
 </body>
