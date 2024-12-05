@@ -6,16 +6,17 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /* Header styles */
 h1 {
     color: #FF8200; /* Bright Orange for header */
-    margin-bottom: 20px;
+    margin: 20px 0;
     text-align: center;
+    font-size: 2.5rem;
 }
 
 /* Link Buttons */
@@ -33,7 +34,7 @@ h1 {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .link-buttons .btn:hover {
@@ -50,6 +51,7 @@ h1 {
     width: 100%;
     max-width: 600px;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 /* Chat container styles */
@@ -64,6 +66,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: transform 0.3s ease-in-out;
 }
 
 /* Chat window styles */
@@ -93,6 +96,12 @@ h1 {
     font-size: 16px;
     background-color: #263238; /* Match input background with chat container */
     color: #ffffff;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#user-input:focus {
+    border-color: #ffa733; /* Lighter orange on focus */
+    outline: none;
 }
 
 button {
@@ -103,18 +112,20 @@ button {
     padding: 10px 15px;
     margin-left: 10px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
     font-size: 16px;
 }
 
 button:hover {
     background-color: #ffa733; /* Lighter Orange on hover */
+    transform: scale(1.05);
 }
 
 /* Message styling in chat window */
 .chat-window p {
     margin: 5px 0;
     color: #ffffff;
+    line-height: 1.5;
 }
 
 .chat-window p:nth-child(odd) {
@@ -132,8 +143,10 @@ a {
     color: #80D8FF; /* Light Blue for links */
     text-decoration: none;
     margin: 0 5px;
+    transition: color 0.3s ease;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #ffa733; /* Lighter Orange on hover */
 }
